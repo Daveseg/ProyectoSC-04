@@ -129,7 +129,8 @@ h2{
     font-weight: 100;
     margin-left: -10%;
     margin-bottom: 25px;
-    color:#E68BFA;
+    margin-top: -50px;
+    color:#ab6555;
     text-align: center;
     
 }
@@ -170,7 +171,7 @@ h2{
 .divleft{
     
     box-sizing: border-box;
-    background-color: pink;
+/*    background-color: pink;*/
     margin-left: -5%;
     margin-bottom:  10px;
     position: relative;
@@ -185,7 +186,7 @@ h2{
 .divRIGHT{
     
     box-sizing: border-box;
-    background-color: lightblue;
+/*    background-color: lightblue;*/
     margin-left: 10%;
     position: relative;
     text-align: center;
