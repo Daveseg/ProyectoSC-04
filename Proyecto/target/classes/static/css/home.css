@@ -7,9 +7,6 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
     Author     : jcga5
 */
 
-
-
-
 *{
     
     margin:0;
@@ -29,24 +26,14 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
     padding-right: 5%;
     box-sizing: border-box;
     position:relative;
-    background: linear-gradient(180deg, #ffffff 10%, #f9a67a 50% , 
-        #ffffff  100% );
+    /*background: linear-gradient(180deg, #ffffff 10%, #f9a67a 50% , 
+        #ffffff  100% );*/
 /*    background: linear-gradient(180deg, #fbd0c6 10%, #f9a67a 50% , 
         #fbd0c6  100% );*/
-/*    background: linear-gradient(180deg,    #ffffff    10%,   #c8f5e5   50% , 
-           #ffffff     100% );*/
+    background: linear-gradient(180deg,    #ffffff    10%,   #c8f5e5   50% , 
+           #ffffff     100% );
     
 }
-
-/*.topmenu{
-    
-    background-color: yellow;
-    width: 100%;
-    height: 14vh;
-    margin-left: -20px;
-    
-}*/
-
 .tophr{
     
     margin-top: 40px;
@@ -115,10 +102,8 @@ nav ul li a{
     
     font-size: 60px;
     font-weight: 100;
-    margin-top: 24px;
-    margin-bottom: 15px;
-    color:#E68BFA 
-    
+    color:#B39B96;
+    text-align: center;
 }
 
 
@@ -126,14 +111,16 @@ nav ul li a{
     
     font-size:20px;
     color: #65098C;
+    text-align: justify;
+    margin-right: 25%;
+    margin-left: 25%;
     
 }
 
 .content{
-    
-    margin-top: 10%;
     margin-left: 10%;
-    
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .fondo{
@@ -179,13 +166,23 @@ nav ul li a{
     
 }
 
+footer a {
+  color: blue;
+}
+
+footer a:hover {
+  color: lightblue;
+}
+
 footer {
   text-align: center;
   display: block;
   padding: 3px;
-  background-color:   #fab38d  ;
-  color: white;
+  /*background-color:   #fab38d  ;*/
+  background-color:   #F0F0F0;
+  color: black;
   border-top: solid #ffffff 2px;
+  
   
 }
 
@@ -201,6 +198,16 @@ footer {
     width: 48%;
 }
 
+.rightP{
+    float:right;
+    margin: 1%;
+}
+
+.leftP{
+    float:left;
+    margin: 1%;
+}
+
 footer hr{
     
     width: 70%;
@@ -212,4 +219,3 @@ footer hr{
     margin-left: 15%;
     
 }
-

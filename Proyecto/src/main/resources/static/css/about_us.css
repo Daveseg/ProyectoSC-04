@@ -7,6 +7,26 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
     Author     : david
 */
 
+
+.container{
+    
+    height:100%;
+    width:100%;
+    background-image: url(../images/fondo.png);
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position:relative;
+    /*background: linear-gradient(180deg, #ffffff 10%, #f9a67a 50% , 
+        #ffffff  100% );*/
+/*    background: linear-gradient(180deg, #fbd0c6 10%, #f9a67a 50% , 
+        #fbd0c6  100% );*/
+    background: linear-gradient(180deg,    #ffffff    10%,   #c8f5e5   50% , 
+           #ffffff     100% );
+    
+}
 .tophr{
     
     margin-top: 40px;
@@ -92,7 +112,7 @@ nav ul li a{
 
 .content{
     margin-left: 10%;
-    
+    text-align: center;
 }
 
 .fondo{
@@ -138,13 +158,25 @@ nav ul li a{
     
 }
 
+
+
+footer a {
+  color: blue;
+}
+
+footer a:hover {
+  color: lightblue;
+}
+
 footer {
   text-align: center;
   display: block;
   padding: 3px;
-  background-color:   #fab38d  ;
-  color: white;
+  /*background-color:   #fab38d  ;*/
+  background-color:   #F0F0F0;
+  color: black;
   border-top: solid #ffffff 2px;
+  
   
 }
 
@@ -158,6 +190,16 @@ footer {
     display: inline-block;
     text-align: right;
     width: 48%;
+}
+
+.rightP{
+    float:right;
+    margin: 1%;
+}
+
+.leftP{
+    float:left;
+    margin: 1%;
 }
 
 footer hr{
