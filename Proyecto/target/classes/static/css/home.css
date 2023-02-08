@@ -111,13 +111,26 @@ nav ul li a{
     
 }
 
+h2{
+    
+    margin-top: 10px;
+    margin-bottom: 20px;
+    
+}
+
+.menuA{
+    text-decoration: none;
+    color: #333;
+}
+
 .content h1{
     
-    font-size: 60px;
+    font-size: 100px;
     font-weight: 100;
-    margin-top: 24px;
-    margin-bottom: 15px;
-    color:#E68BFA 
+    margin-left: -10%;
+    margin-bottom: 25px;
+    color:#E68BFA;
+    text-align: center;
     
 }
 
@@ -157,7 +170,7 @@ nav ul li a{
 .divleft{
     
     box-sizing: border-box;
-/*    background-color: pink;*/
+    background-color: pink;
     margin-left: -5%;
     margin-bottom:  10px;
     position: relative;
