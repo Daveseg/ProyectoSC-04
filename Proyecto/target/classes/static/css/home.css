@@ -98,12 +98,31 @@ nav ul li a{
     
 }
 
+h2{
+    
+    margin-top: 10px;
+    margin-bottom: 20px;
+    
+}
+
+.menuA{
+    text-decoration: none;
+    color: #333;
+}
+
 .content h1{
     
-    font-size: 60px;
+    font-size: 100px;
     font-weight: 100;
+
     color:#B39B96;
     text-align: center;
+    margin-left: -10%;
+    margin-bottom: 25px;
+    margin-top: -50px;
+    color:#ab6555;
+    text-align: center;
+    
 }
 
 
@@ -159,7 +178,7 @@ nav ul li a{
 .divRIGHT{
     
     box-sizing: border-box;
-    background-color: lightblue;
+/*    background-color: lightblue;*/
     margin-left: 10%;
     position: relative;
     text-align: center;
