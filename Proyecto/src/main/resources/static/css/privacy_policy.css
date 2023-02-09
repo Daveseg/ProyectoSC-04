@@ -8,16 +8,14 @@
 
 .container{
     
-    height:140%;
-    width:100%;
-    background-image: url(../images/fondo.png);
+    height:155%;
+    width: 100%;
     background-position: center;
     background-size: cover;
     padding-left: 5%;
     padding-right: 5%;
     box-sizing: border-box;
     position:relative;
-
     background: linear-gradient(180deg,    #ffffff    10%,   #c8f5e5   50% , 
            #ffffff     100% );
     
@@ -88,7 +86,7 @@ nav ul li a{
     font-weight: 100;
     margin-top: 24px;
     margin-bottom: 15px;
-    color:#E68BFA;
+    color:#B39B96;
     left: 5%;
     position: relative;
     display: inline-block;
@@ -101,13 +99,13 @@ nav ul li a{
     font-size:20px;
     color: #65098C;
     left: 5%;
-    position: relative;
-    display: inline-block;
+    
+   
     
 }
 
 .content{
-    
+  
     margin-top: 0;
     margin-left: 10%;
     left: -3%;
@@ -127,10 +125,10 @@ nav ul li a{
 .content div{
     
     display: inline-block;
-    height: 20vw;
     width: 45%;
-    left: 47%;
-    position: relative
+    left: 20%;
+    position: relative;
+
 }
 
 .divleft{
@@ -156,7 +154,7 @@ nav ul li a{
 
 footer {
   text-align: center;
-  display: block;
+
   padding: 3px;
   background-color:   #F0F0F0  ;
   color: black;
@@ -199,21 +197,23 @@ footer hr{
 
 .Candado_Pol{
     position: relative;
+    display: inline-block;
     width: 200px;
-    left: -500px;
-    top: -45vh;
+    left: 10%;
+    bottom: 55vh;
 }
 
 .Reunion_Pol{
     position: relative;
+    display: inline-block;
     width: 200px;
-    left: -710px;
-    top: -8vh;
+    right: 5%;
+    top: -15vh;
 }
 
 .Privacidad_Pol{
     width: 400px;
     position: relative;
-    left: -600px;
-    top: 45vh;
+    left: 40%;
+  
 }

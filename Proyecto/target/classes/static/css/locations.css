@@ -85,7 +85,7 @@ nav ul li a{
     font-weight: 100;
     margin-top: 24px;
     margin-bottom: 15px;
-    color:#E68BFA 
+    color:#B39B96;
     
 }
 
@@ -148,6 +148,10 @@ footer a {
   color: blue;
 }
 
+footer a:hover {
+  color: lightblue;
+}
+
 footer {
   text-align: center;
   display: block;
@@ -196,6 +200,13 @@ footer hr{
     top: 120px;
     left: -400px;
     text-align: center;
+    
+}
+.loc1 h2{
+    font-size: 50px;
+  
+    color:#B39B96;
+    text-align: center;
 }
 
 .Local1{
@@ -210,6 +221,12 @@ footer hr{
     position: relative;
     top: 350px;
     left: -400px;
+    text-align: center;
+}
+.loc2 h2{
+    font-size: 50px;
+  
+    color:#B39B96;
     text-align: center;
 }
 

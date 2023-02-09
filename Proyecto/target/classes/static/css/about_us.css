@@ -10,7 +10,7 @@
     
     height:110%;
     width:100%;
-    background-image: url(../images/fondo.png);
+
     background-position: center;
     background-size: cover;
     padding-left: 5%;
@@ -88,6 +88,7 @@ nav ul li a{
     font-weight: 100;
     color:#B39B96;
     text-align: center;
+    margin-top: 50px;
 }
 
 
@@ -121,6 +122,15 @@ nav ul li a{
     display: inline-block;
     height: 20vw;
     width: 45%;
+    
+}
+
+.ImagenAbout{
+    
+    margin-top: 30px;
+    width: 300px;
+    border-radius: 10px;
+    border: double black 0.2px;
     
 }
 

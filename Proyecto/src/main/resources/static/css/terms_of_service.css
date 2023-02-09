@@ -8,8 +8,8 @@
 
 .container{
     
-    height:140%;
-    width:100%;
+    height:100%;
+    width: 100%;
     background-position: center;
     background-size: cover;
     padding-left: 5%;
@@ -86,7 +86,7 @@ nav ul li a{
     font-weight: 100;
     margin-top: 24px;
     margin-bottom: 15px;
-    color:#E68BFA 
+    color:#B39B96;
     
 }
 
@@ -192,7 +192,7 @@ footer hr{
 .Celular_Term{
     width: 200px;
     left: 23%;
-    top: -45vh;
+    bottom: 55vh;
     position: relative;
 }
 
@@ -206,6 +206,7 @@ footer hr{
 .Celebracion_Term{
     width: 400px;
     position: relative;
-    left: -650px;
-    top: 45vh;
+    left: 40%;
+    
+    
 }
