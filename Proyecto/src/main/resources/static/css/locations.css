@@ -6,7 +6,6 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
     Created on : Feb 7, 2023, 4:21:50 PM
     Author     : david
 */
-
 .container{
     
     height:100%;
@@ -26,10 +25,11 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
            #ffffff     100% );
     
 }
+
 .tophr{
     
     margin-top: 40px;
-    
+    /*border-color: white;*/
 }
 
 .navbar{
@@ -39,6 +39,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
     margin: auto;
     align-items: center;
     display: flex;
+    background: white;
 /*    background: #fbd0c6;*/
 /*    position: fixed;*/
     
@@ -94,8 +95,10 @@ nav ul li a{
     
     font-size: 60px;
     font-weight: 100;
-    color:#B39B96;
-    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 15px;
+    color:#E68BFA 
+    
 }
 
 
@@ -103,14 +106,13 @@ nav ul li a{
     
     font-size:20px;
     color: #65098C;
-    text-align: justify;
-    margin-right: 25%;
-    margin-left: 25%;
     
 }
 
 .content{
-    margin-left: 10%;
+    
+    margin-top: 5%;
+    margin-left: 7%;
     
 }
 
@@ -126,9 +128,9 @@ nav ul li a{
 
 .content div{
     
-    display: inline-block;
-    height: 20vw;
-    width: 45%;
+   
+    height: 190px;
+    width: 100%;
     
 }
 
@@ -157,24 +159,15 @@ nav ul li a{
     
 }
 
-footer a {
-  color: blue;
-}
-
-footer a:hover {
-  color: lightblue;
-}
-
 footer {
   text-align: center;
   display: block;
   padding: 3px;
-  /*background-color:   #fab38d  ;*/
-  background-color:   #F0F0F0;
-  color: black;
+  background-color:   #fab38d  ;
+  color: white;
   border-top: solid #ffffff 2px;
-  
-  
+  position: relative;
+  top: 30vh;
 }
 
 .footerL{
@@ -189,16 +182,6 @@ footer {
     width: 48%;
 }
 
-.rightP{
-    float:right;
-    margin: 1%;
-}
-
-.leftP{
-    float:left;
-    margin: 1%;
-}
-
 footer hr{
     
     width: 70%;
@@ -209,4 +192,38 @@ footer hr{
     box-sizing: border-box;
     margin-left: 15%;
     
+}
+
+body{
+    background:   wheat;
+}
+
+.Loc1{
+    position: relative;
+    top: 120px;
+    left: -400px;
+    text-align: center;
+}
+
+.Local1{
+    position: relative;
+    width: 600px;
+    top: -420px;
+    left: 800px;
+    border-radius: 5%;
+}
+
+.Loc2{
+    position: relative;
+    top: 350px;
+    left: -400px;
+    text-align: center;
+}
+
+.Local2{
+    position: relative;
+    width: 600px;
+    top: 30px;
+    left: 200px;
+    border-radius: 5%;
 }
