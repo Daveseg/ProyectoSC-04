@@ -94,8 +94,10 @@ nav ul li a{
     
     font-size: 60px;
     font-weight: 100;
-    color:#B39B96;
-    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 15px;
+    color:#E68BFA 
+    
 }
 
 
@@ -103,13 +105,12 @@ nav ul li a{
     
     font-size:20px;
     color: #65098C;
-    text-align: justify;
-    margin-right: 25%;
-    margin-left: 25%;
     
 }
 
 .content{
+    
+    margin-top: 0;
     margin-left: 10%;
     
 }
@@ -129,6 +130,8 @@ nav ul li a{
     display: inline-block;
     height: 20vw;
     width: 45%;
+    left: 4%;
+    position: relative;
     
 }
 
@@ -157,24 +160,15 @@ nav ul li a{
     
 }
 
-footer a {
-  color: blue;
-}
-
-footer a:hover {
-  color: lightblue;
-}
-
 footer {
   text-align: center;
   display: block;
   padding: 3px;
-  /*background-color:   #fab38d  ;*/
-  background-color:   #F0F0F0;
-  color: black;
+  background-color:   #fab38d  ;
+  color: white;
   border-top: solid #ffffff 2px;
-  
-  
+  top: 30vh;
+  position: relative;
 }
 
 .footerL{
@@ -189,16 +183,6 @@ footer {
     width: 48%;
 }
 
-.rightP{
-    float:right;
-    margin: 1%;
-}
-
-.leftP{
-    float:left;
-    margin: 1%;
-}
-
 footer hr{
     
     width: 70%;
@@ -209,4 +193,25 @@ footer hr{
     box-sizing: border-box;
     margin-left: 15%;
     
+}
+
+.Celular_Term{
+    width: 200px;
+    left: 23%;
+    top: -45vh;
+    position: relative;
+}
+
+.Pastel_Term{
+    width: 200px;
+    left: 10%;
+    top: -10vh;
+    position: relative;
+}
+
+.Celebracion_Term{
+    width: 400px;
+    position: relative;
+    left: -650px;
+    top: 45vh;
 }
