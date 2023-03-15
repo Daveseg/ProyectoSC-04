@@ -10,10 +10,6 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-/**
- *
- * @author jcga5
- */
 @Service
 public class TablaCakeService implements ITablaCakeService{
 
@@ -21,24 +17,7 @@ public class TablaCakeService implements ITablaCakeService{
     private TablaCakeRepository tablaCakeRepository;
     
     @Override
-    public List<TablaCake> getAllTablaCake() {
-        return (List<TablaCake>)tablaCakeRepository.findAll(); 
+    public List<TablaCake>listTablaCake(){
+        return (List<TablaCake>)tablaCakeRepository.findAll();
     }
-
-    @Override
-    public TablaCake getTablaCakeById(long id) {
-        return tablaCakeRepository.findById(id).orElse(null); 
-    }
-
-    @Override
-    public void saveTablaCake(TablaCake tablaCake) {
-        tablaCakeRepository.save(tablaCake); 
-    }
-
-    @Override
-    public void delete(long id) {
-        tablaCakeRepository.deleteById(id);
-    }
-
-
 }

@@ -8,10 +8,7 @@ import Tarea1HTML.demo.entity.TablaCake;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
-/**
- *
- * @author jcga5
- */
+
 @Repository
 public interface TablaCakeRepository extends CrudRepository<TablaCake,Long> {
     

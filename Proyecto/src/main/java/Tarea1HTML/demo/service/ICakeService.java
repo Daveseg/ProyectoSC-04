@@ -7,10 +7,10 @@ package Tarea1HTML.demo.service;
 import Tarea1HTML.demo.entity.Cake;
 import java.util.List;
 
-/**
- *
- * @author jcga5
- */
+
 public interface ICakeService {
-    public List<Cake> listCake();
+    public List<Cake> getAllCake();
+    public Cake getCakeById(long id);
+    public void saveCake(Cake cake);
+    public void delete(long id);
 }

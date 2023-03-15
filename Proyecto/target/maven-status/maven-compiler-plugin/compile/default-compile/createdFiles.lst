@@ -1,1 +1,10 @@
+Tarea1HTML\demo\entity\Cake.class
+Tarea1HTML\demo\entity\TablaCake.class
+Tarea1HTML\demo\service\CakeService.class
 Tarea1HTML\demo\Tarea1HtmlApplication.class
+Tarea1HTML\demo\service\ICakeService.class
+Tarea1HTML\demo\service\ITablaCakeService.class
+Tarea1HTML\demo\repository\CakeRepository.class
+Tarea1HTML\demo\controller\CakeController.class
+Tarea1HTML\demo\service\TablaCakeService.class
+Tarea1HTML\demo\repository\TablaCakeRepository.class

@@ -8,13 +8,11 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
 import java.io.Serializable;
 
-/**
- *
- * @author jcga5
- */
 @Entity
 @Table(name ="cakes" )
 public class Cake implements Serializable{
@@ -26,6 +24,9 @@ public class Cake implements Serializable{
     private String precio;
     private String descripcion;
 
+    @ManyToOne
+    @JoinColumn(name="tablaCakes_id")
+    
     public long getId() {
         return id;
     }
@@ -56,8 +57,5 @@ public class Cake implements Serializable{
 
     public void setDescripcion(String descripcion) {
         this.descripcion = descripcion;
-    }
-    
-    
-    
+    } 
 }

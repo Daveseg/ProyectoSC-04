@@ -10,18 +10,31 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-/**
- *
- * @author jcga5
- */
+
 @Service
-public class CakeService  implements ICakeService{
+public class CakeService implements ICakeService{
     
     @Autowired
     private CakeRepository cakeRepository;
+
+    @Override
+    public List<Cake> getAllCake() {
+        return (List<Cake>)cakeRepository.findAll();
+    }
     
     @Override
-    public List<Cake> listCake(){
-        return (List<Cake>)cakeRepository.findAll();
-    }    
+    public Cake getCakeById(long id){
+        return cakeRepository.findById(id).orElse(null);
+    }
+    
+    @Override
+    public void saveCake(Cake cake){
+        cakeRepository.save(cake);
+    }
+    
+    @Override
+    public void delete(long id){
+        cakeRepository.deleteById(id);
+    }
+    
 }

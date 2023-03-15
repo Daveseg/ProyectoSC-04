@@ -8,10 +8,6 @@ import Tarea1HTML.demo.entity.Cake;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
-/**
- *
- * @author jcga5
- */
 @Repository
 public interface CakeRepository extends CrudRepository<Cake, Long> {
     
