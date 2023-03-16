@@ -4,9 +4,10 @@
  */
 package Tarea1HTML.demo.controller;
 
-import Tarea1HTML.demo.entity.Cake;
-import Tarea1HTML.demo.service.CakeService;
-import Tarea1HTML.demo.service.ICakeService;
+
+import Tarea1HTML.demo.entity.Cookie;
+import Tarea1HTML.demo.service.CookieService;
+import Tarea1HTML.demo.service.ICookieService;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -15,19 +16,16 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 
 @Controller
-public class CakeController {
-    
-//    @Autowired
-//    private ICakeService cakeCakeService;
+public class CookieController {
     
     @Autowired
-    private ICakeService cakeService;
+    private ICookieService cookieService;
     
-    @GetMapping("/cake")
+    @GetMapping("/cookie")
     public String index(Model model){
-        List<Cake> listaCake = cakeService.getAllCake();
-        model.addAttribute("titulo", "Our Cakes");
-        model.addAttribute("cakes", listaCake);
-        return "cakes";
+        List<Cookie> listaCookie = cookieService.getAllCookie();
+        model.addAttribute("titulo", "Our Cookies");
+        model.addAttribute("cookies", listaCookie);
+        return "cookies";
     }
 }
