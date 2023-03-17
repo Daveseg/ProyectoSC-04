@@ -177,18 +177,21 @@ footer {
   background-color:   #F0F0F0;
   color: black;
   border-top: solid #ffffff 2px;
+
 }
 
 .footerL{
     display: inline-block;
     text-align: left;
     width: 48%;
+
 }
 
 .footerR{
     display: inline-block;
     text-align: right;
     width: 48%;
+
 }
 
 .rightP{
