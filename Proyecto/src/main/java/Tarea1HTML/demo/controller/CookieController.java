@@ -4,10 +4,9 @@
  */
 package Tarea1HTML.demo.controller;
 
+import Tarea1HTML.demo.entity.Producto;
 
-import Tarea1HTML.demo.entity.Cookie;
-
-import Tarea1HTML.demo.service.ICookieService;
+import Tarea1HTML.demo.service.IProductoService;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -19,11 +18,11 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class CookieController {
     
     @Autowired
-    private ICookieService cookieService;
+    private IProductoService productoService;
     
     @GetMapping("/cookie")
     public String index(Model model){
-        List<Cookie> listaCookie = cookieService.getAllCookie();
+        List<Producto> listaCookie = productoService.getAllProductobyTipo(3);
         model.addAttribute("titulo", "Our Cookies");
         model.addAttribute("cookies", listaCookie);
         return "cookies";

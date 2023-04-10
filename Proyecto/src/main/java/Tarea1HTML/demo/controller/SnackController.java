@@ -4,8 +4,8 @@
  */
 package Tarea1HTML.demo.controller;
 
-import Tarea1HTML.demo.entity.Snack;
-import Tarea1HTML.demo.service.ISnackService;
+import Tarea1HTML.demo.entity.Producto;
+import Tarea1HTML.demo.service.IProductoService;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -16,11 +16,11 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class SnackController {
     
     @Autowired
-    private ISnackService snackService;
+    private IProductoService productoService;
     
     @GetMapping("/snack")
     public String index(Model model){
-        List<Snack> listaSnack = snackService.getAllSnack();
+        List<Producto> listaSnack = productoService.getAllProductobyTipo(4);
         model.addAttribute("titulo", "Our Snacks");
         model.addAttribute("snacks", listaSnack);
         return "snacks";

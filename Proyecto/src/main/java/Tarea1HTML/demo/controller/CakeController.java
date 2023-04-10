@@ -4,9 +4,8 @@
  */
 package Tarea1HTML.demo.controller;
 
-import Tarea1HTML.demo.entity.Cake;
-import Tarea1HTML.demo.service.CakeService;
-import Tarea1HTML.demo.service.ICakeService;
+import Tarea1HTML.demo.entity.Producto;
+import Tarea1HTML.demo.service.IProductoService;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -21,11 +20,11 @@ public class CakeController {
 //    private ICakeService cakeCakeService;
     
     @Autowired
-    private ICakeService cakeService;
+    private IProductoService productoService;
     
     @GetMapping("/cake")
     public String index(Model model){
-        List<Cake> listaCake = cakeService.getAllCake();
+        List<Producto> listaCake = productoService.getAllProductobyTipo(3);
         model.addAttribute("titulo", "Our Cakes");
         model.addAttribute("cakes", listaCake);
         return "cakes";

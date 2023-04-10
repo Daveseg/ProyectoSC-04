@@ -4,8 +4,8 @@
  */
 package Tarea1HTML.demo.controller;
 
-import Tarea1HTML.demo.entity.Donut;
-import Tarea1HTML.demo.service.IDonutService;
+import Tarea1HTML.demo.entity.Producto;
+import Tarea1HTML.demo.service.IProductoService;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -17,11 +17,12 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class DonutController {
     
     @Autowired
-    private IDonutService donutService;
+    private IProductoService productoService;
     
     @GetMapping("/donut")
     public String index(Model model){
-        List<Donut> listaDonut = donutService.getAllDonut();
+        //List<Donut> listaDonut = donutService.getAllDonut();
+        List<Producto> listaDonut = productoService.getAllProductobyTipo(2);
         model.addAttribute("titulo", "Our Donuts");
         model.addAttribute("donuts", listaDonut);
         return "donuts";
