@@ -13,10 +13,7 @@ import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
 import java.io.Serializable;
 
-/**
- *
- * @author david
- */
+
 @Entity
 @Table(name ="producto" )
 public class Producto implements Serializable {
