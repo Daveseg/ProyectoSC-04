@@ -24,7 +24,7 @@ public class CakeController {
     
     @GetMapping("/cake")
     public String index(Model model){
-        List<Producto> listaCake = productoService.getAllProductobyTipo(3);
+        List<Producto> listaCake = productoService.getAllProductobyTipo(1);
         model.addAttribute("titulo", "Our Cakes");
         model.addAttribute("cakes", listaCake);
         return "cakes";
