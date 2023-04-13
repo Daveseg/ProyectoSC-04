@@ -25,10 +25,10 @@
 }
 
 .topnav a.active {
-  background-color: #04AA6D;
-  color: white;
-  border-radius: 30px;
-  margin-top: 3px;
+    background-color: #04AA6D;
+    color: white;
+    border-radius: 30px;
+    margin-top: 3px;
 }
 
 .topnav a:hover {
@@ -40,60 +40,18 @@
     float: right;
 }
 
-body{
-    height: 100VH;  
-}
-
-.center{
-    
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    width: 400px;
-    background: white;
-    border-radius: 10px;
-}
-
-.center h1{
-    text-align: center;
-    padding: 20px 0;
-    border-bottom: 1px solid silver;
-    
-}
-
-.center form{
-    padding: 0 40px;
+html {
     box-sizing: border-box;
-    
 }
 
-form .txt_field{
-    position: relative;
-    border-bottom: 2px solid silver;
-    margin: 30px 0;
-}
-
-.txt_field input{
-    width: 100%;
-    padding: 0 5px;
-    height: 40px;
-    font-size: 17px;
-    border: none;
-    background: none;
-}
-
-.loginbtn{
-    width: 20%;
-    margin-left: 37%;
-    margin-top: 8%;
-    margin-bottom: 8%;
+*, *:before, *:after {
+    box-sizing: inherit;
 }
 .container{
     
-    height:100%;
+    height:130%;
     width:100%;
-    background-image: url(../images/Caramel Popcorn Macarons.png);
+
     background-position: center;
     background-size: cover;
     padding-left: 5%;
@@ -104,50 +62,21 @@ form .txt_field{
            #ffffff     100% );
     
 }
-.tophr{
-    
-    margin-top: 40px;
-    
-}
+
 
 .logo{
-    
+
     width: 350px;
     cursor: pointer;
     margin-left: -50px;
     margin-top: 25px;
 }
 
-a:hover {
-    text-decoration:underline;
-}
-
-.pictures {
-    
-    height: 250px;
-    width: 200px;
-    display: inline-block;
-    border: double 2px antiquewhite;
-    border-radius: 10px;
-    
-}
-
-.content h1{
-    
-    font-size: 60px;
-    font-weight: 100;
-    color:#B39B96;
-    text-align: center;
-}
 
 
-.content p{
+.tophr{
     
-    font-size:20px;
-    color: #65098C;
-    text-align: justify;
-    margin-right: 25%;
-    margin-left: 25%;
+    margin-top: 40px;
     
 }
 
@@ -156,46 +85,62 @@ a:hover {
     
 }
 
-.fondo{
+.content h1{
     
-    height: 50%;
-    position: absolute;
-    bottom: 50px;
-    right: 160px;
-    
-}
+    font-size: 60px;
+    font-weight: 100;
 
+    color:#B39B96;
+    text-align: center;
+    margin-left: -10%;
+    margin-bottom: 25px;
+    margin-top: 50px;
+    color:#B39B96;
+    text-align: center;
+}
 
 .content div{
     
     display: inline-block;
     height: 20vw;
-    width: 45%;
+/*    width: 45%;*/
     
 }
 
-.divleft{
+.divIzq{
     
     box-sizing: border-box;
-/*    background-color: pink;*/
     margin-left: -5%;
     margin-bottom:  10px;
     position: relative;
     top: 0%;
     text-align: center;
-    /*border: double 1px;*/
-    /*border-radius: 30px;*/
-    
     
 }
 
-.divRIGHT{
+.divDer{
     
     box-sizing: border-box;
-    background-color: lightblue;
     margin-left: 10%;
     position: relative;
     text-align: center;
+    
+}
+
+.pictures {
+    
+    
+    width: 600px;
+    display: inline-block;
+    border: double 2px antiquewhite;
+    border-radius: 10px;
+    
+}
+
+h2{
+    
+    margin-top: 10px;
+    margin-bottom: 20px;
     
 }
 
@@ -211,7 +156,6 @@ footer {
   text-align: center;
   display: block;
   padding: 3px;
-  /*background-color:   #fab38d  ;*/
   background-color:   #F0F0F0;
   color: black;
   border-top: solid #ffffff 2px;
@@ -250,10 +194,5 @@ footer hr{
     border-top: dotted white 2px;
     box-sizing: border-box;
     margin-left: 15%;
-    
-}
-
-.adminBoton{
-    padding-bottom: 5%;
     
 }
