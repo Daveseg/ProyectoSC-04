@@ -12,7 +12,7 @@
 }
 
 .topnav a {
-    height: 15vh;
+    height: 18vh;
     margin: auto;
     align-items: center;
     display: flex;
@@ -67,7 +67,14 @@ html {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
+.content{
+  padding: 0 16px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
 .container {
+    
     padding: 0 16px;
     padding-left: 5%;
     padding-right: 5%;
@@ -95,8 +102,8 @@ html {
 }
 
 .logo{
-
     width: 350px;
+  height: 250px;
     cursor: pointer;
     margin-left: -50px;
     margin-top: 25px;
@@ -132,12 +139,14 @@ footer a:hover {
 }
 
 footer {
+    width: 111.2%;
     text-align: center;
     display: block;
     padding: 3px;
     background-color:   #F0F0F0;
     color: black;
     border-top: solid #ffffff 2px;
+    margin-left:-100px;
 
 
 }
