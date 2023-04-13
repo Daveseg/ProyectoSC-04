@@ -48,7 +48,7 @@ html {
     box-sizing: inherit;
 }
 .container{
-    
+
     height:130%;
     width:100%;
 
@@ -58,9 +58,9 @@ html {
     padding-right: 5%;
     box-sizing: border-box;
     position:relative;
-    background: linear-gradient(180deg,    #ffffff    10%,   #c8f5e5   50% , 
-           #ffffff     100% );
-    
+    background: linear-gradient(180deg,    #ffffff    10%,   #c8f5e5   50% ,
+        #ffffff     100% );
+
 }
 
 
@@ -75,18 +75,18 @@ html {
 
 
 .tophr{
-    
+
     margin-top: 40px;
-    
+
 }
 
 .content{
     margin-left: 10%;
-    
+
 }
 
 .content h1{
-    
+
     font-size: 60px;
     font-weight: 100;
 
@@ -100,67 +100,67 @@ html {
 }
 
 .content div{
-    
+
     display: inline-block;
     height: 20vw;
-/*    width: 45%;*/
-    
+    /*    width: 45%;*/
+
 }
 
 .divIzq{
-    
+
     box-sizing: border-box;
     margin-left: -5%;
     margin-bottom:  10px;
     position: relative;
     top: 0%;
     text-align: center;
-    
+
 }
 
 .divDer{
-    
+
     box-sizing: border-box;
     margin-left: 10%;
     position: relative;
     text-align: center;
-    
+
 }
 
 .pictures {
-    
-    
+
+
     width: 600px;
     display: inline-block;
     border: double 2px antiquewhite;
     border-radius: 10px;
-    
+
 }
 
 h2{
-    
+
     margin-top: 10px;
     margin-bottom: 20px;
-    
+
 }
 
 footer a {
-  color: blue;
+    color: blue;
 }
 
 footer a:hover {
-  color: lightblue;
+    color: lightblue;
 }
 
 footer {
-  text-align: center;
-  display: block;
-  padding: 3px;
-  background-color:   #F0F0F0;
-  color: black;
-  border-top: solid #ffffff 2px;
-  
-  
+    text-align: center;
+    display: block;
+    padding: 3px;
+    background-color:   #F0F0F0;
+    color: black;
+    border-top: solid #ffffff 2px;
+
+
 }
 
 .footerL{
@@ -186,7 +186,7 @@ footer {
 }
 
 footer hr{
-    
+
     width: 70%;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -194,5 +194,6 @@ footer hr{
     border-top: dotted white 2px;
     box-sizing: border-box;
     margin-left: 15%;
-    
+
 }
+
