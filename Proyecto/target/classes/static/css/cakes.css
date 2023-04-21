@@ -69,8 +69,8 @@ html {
 
 .content{
   padding: 0 16px;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 0%;
+    padding-right: 0%;
 }
 
 .container {
@@ -107,6 +107,25 @@ html {
     cursor: pointer;
     margin-left: -50px;
     margin-top: 25px;
+}
+
+.divImagenProducto{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.imageProducto{
+    
+    border-radius: 10px;
+  border-color: green;
+  border-style: solid;
+  border-width: 2px;
+    
+    width: 500px;
+    height: 500px;
 }
 
 a:hover {
@@ -172,4 +191,3 @@ footer {
     float:left;
     margin: 1%;
 }
-

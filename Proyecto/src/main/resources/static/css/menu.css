@@ -103,7 +103,7 @@ html {
 
 .logo{
     width: 350px;
-  height: 250px;
+    height: 250px;
     cursor: pointer;
     margin-left: -50px;
     margin-top: 25px;
@@ -139,7 +139,7 @@ footer a:hover {
 }
 
 footer {
-    width: 111.2%;
+    width: 105.2%;
     text-align: center;
     display: block;
     padding: 3px;
@@ -173,14 +173,3 @@ footer {
     margin: 1%;
 }
 
-footer hr{
-
-    width: 70%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border: none;
-    border-top: dotted white 2px;
-    box-sizing: border-box;
-    margin-left: 15%;
-
-}

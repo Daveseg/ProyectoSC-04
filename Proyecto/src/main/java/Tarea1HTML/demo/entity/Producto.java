@@ -23,7 +23,9 @@ public class Producto implements Serializable {
     private String sabor;
     private String precio;
     private String descripcion;
+    private String image_url;
     private long tipoP;
+    
 
     public long getId() {
         return id;
@@ -64,7 +66,12 @@ public class Producto implements Serializable {
     public void setTipoP(long tipoP) {
         this.tipoP = tipoP;
     }
-    
-    
-    
+
+    public String getImage_url() {
+        return image_url;
+    }
+
+    public void setImage_url(String image_url) {
+        this.image_url = image_url;
+    }    
 }
