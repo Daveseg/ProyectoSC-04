@@ -110,7 +110,7 @@ html {
 }
 
 .divImagenProducto{
-    margin-top: 20px;
+   
     display: flex;
     justify-content: center;
     align-items: center;
@@ -119,9 +119,9 @@ html {
 
 .imageProducto{
     
-    border-radius: 10px;
-  border-color: green;
-  border-style: solid;
+ 
+  
+
   border-width: 2px;
     
     width: 500px;
@@ -136,6 +136,14 @@ img {
     float: left;
     height: 430px;
     object-fit: cover;
+}
+
+.tr{
+   display: inline-block; 
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   margin-left: .5%;
+   margin-bottom: 2%;
+    
 }
 
 .content p{

@@ -43,26 +43,34 @@ CREATE TABLE `Producto` (
   );
   
   INSERT INTO `Producto` VALUES
-(1,'Zanahoria', '₡5,000', 'Un delicioso queque de zanahoria preparado con los ingredientes más frescos','images/zanahoria.jpeg',1),
-(2,'Vainilla','₡6,000', 'Una deliciosa combinación de Queque Tradicional y Queque de vainilla','images/quequeVainilla.jpg',1),
-(3,'Naranja','₡4,000', 'El tradicional, pero no te dejes engañar, igual de delicioso','images/Queque Naranja.jpg',1),
-(4,'Chocolate','₡5,000', 'Un delicioso queque preparado a base de chocolate oscuro','images/Queque Chocolate.jpg',1),
-(5,'Crema y Frambuesa','₡5,000', 'Deliciosa combinación de crema y frambuesa en nuestro queque tradicional','images/quequeCremaFrambuesa.jpg',1),
-(6,'Dona Glaseada', '₡2,000', 'Una deliciosa dona Glaseada de sabores a su preferencia','images/mage.png',2),
-(7,'Dona de chocolate','₡2,000', 'Una deliciosa dona de chocolate Tradicional','images/mage.png',2),
-(8,'Dona de crema pastelera','₡2,000', 'Deliciosa dona rellena de crema pastelera','images/mage.png',2),
-(9,'Cronut','₡2,000', 'Una deliciosa dona hecha con masa de croissant y glaseado a su eleccion','images/Cronut.jpg',2),
-(10,'Dona tradicional azucarada','₡2,000', 'Clasica dona azucarada','images/mage.png',2),
-(11,'Funfetti cookie', '₡1,000', 'Deliciosa galleta con chispas de colores','images/Funfetti Cookie',3),
-(12,'Red Velvet','₡1,000', 'Una deliciosa galleta con chispas de chocolate y festivo color rojo','images/mage.png',3),
-(13,'Macarons','₡1,500', 'Dos galletas unidas por una tierna crema o ganache entre ambas','images/Macarons cookies.jpg',3),
-(14,'Chocolate chip cookie','₡1,000', 'Clasica galleta crujiente con trocitos de chocolate','images/ChocolateChipCookies.jpg',3),
-(15,'Alfajores Argentinos','₡1,500', 'Deliciosa galletas rellenas de dulce de leche y azúcar glaseado','images/mage.png',3),
-(16,'Croissants', '₡5,000', 'Un delicioso bocadilla de masa de hojaldre fermentada en forma de luna creciente','images/croissants.jpg',4),
-(17,'Cannoncini','₡6,000', 'Bocadillo Crujiente en la superficie, suave por dentro y relleno de una sabrosa crema de vainilla','images/Italian Cream Stuffed Cannoncini (Cream Horns)',4),
-(18,'Trenza salada','₡4,000', 'Pan en forma de trenza con queso salado que lo hace un delicioso bocadillo ','images/mage.png',4),
-(19,'Pupusas dulces','₡5,000', 'Un delicioso pan dulce suave, perfecto para un cafe','images/mage.png',4),
-(20,'Budín clásico','₡5,000', ' Bocadillo, dulce o salado, que se cuece y cuaja dentro de un molde de paredes altas al baño María.','images/mage.png',4);
+(1,'Zanahoria', '₡5,000', 'Un delicioso queque de zanahoria preparado\n con los ingredientes más frescos.','images/zanahoria.jpeg',1),
+(2,'Vainilla','₡6,000', 'Una deliciosa combinación de\n Queque Tradicional y Queque de vainilla','images/quequeVainilla.jpg',1),
+(3,'Naranja','₡4,000', 'El tradicional, pero no te dejes engañar,\n igual de delicioso','images/Queque Naranja.jpg',1),
+(4,'Chocolate','₡5,000', 'Un delicioso queque preparado a base de chocolate oscuro\n relleno de Dulce de leche','images/Queque Chocolate.jpg',1),
+(5,'Crema y Frambuesa','₡5,000', 'Deliciosa combinación de crema y\n frambuesa en nuestro queque tradicional','images/quequeCremaFrambuesa.jpg',1),
+(6,'Snickers','₡', 'Delicioso queque preparado con el favorito\n Snickers','images/Snickers Cake.jpg',1),
+
+(7,'Dona Glaseada', '₡2,000', 'Una deliciosa dona Glaseada\n de sabores a su preferencia','images/donaGlaseada.jpg',2),
+(8,'Dona de chocolate','₡2,000', 'Una deliciosa dona de chocolate Tradicional','images/DonaChocolate.jpg',2),
+(9,'Dona de crema pastelera','₡2,000', 'Deliciosa dona rellena de crema pastelera','images/image.png',2),
+(10,'Cronut','₡2,000', 'Una deliciosa dona hecha con masa de croissant','images/Cronut.jpg',2),
+(11,'Dona tradicional azucarada','₡2,000', 'Clasica dona azucarada','images/DonaAzucarada.jpg',2),
+(12,'Dona de Arandanos','₡', 'Deliciosa Dona rellena de mermelada de Arandanos','images/DonaArandano.jpg',2),
+
+(13,'Funfetti cookie', '₡1,000', 'Deliciosa galleta con chispas de colores','images/Funfetti Cookie',3),
+(14,'Red Velvet','₡1,000', 'Una deliciosa galleta con chispas de chocolate y festivo color rojo','images/Red Velvet Cookie.jpg',3),
+(15,'Macarons','₡1,500', 'Dos galletas unidas por una tierna crema o ganache entre ambas','images/Macarons cookies.jpg',3),
+(16,'Chocolate chip cookie','₡1,000', 'Clasica galleta crujiente con trocitos de chocolate','images/ChocolateChipCookies.jpg',3),
+(17,'Alfajores Argentinos','₡1,500', 'Deliciosa galletas rellenas de dulce de leche y azúcar glaseado','images/Alfajores.png',3),
+(18,'Galleta de Leche Condensada', '₡', 'Aquí va la descripciónn','images/GalletaLecheCondensada.jpg',3),
+
+(19,'Croissants', '₡5,000', 'Bocadilla de masa de hojaldre\n fermentada en forma de luna creciente','images/croissants.jpg',4),
+(20,'Cannoncini','₡6,000', 'Bocadillo Crujiente en la superficie, suave por dentro y relleno de una sabrosa crema de vainilla','images/Italian Cream Stuffed Cannoncini (Cream Horns).jpg',4),
+(21,'Trenza salada','₡4,000', 'Pan en forma de trenza con queso salado que lo hace un delicioso bocadillo ','images/TrenzaSalada.png',4),
+(22,'Pupusas dulces','₡5,000', 'Un delicioso pan dulce suave, perfecto para un cafe','images/Pupusa.jpg',4),
+(23,'Budín clásico','₡5,000', ' Bocadillo, dulce o salado, que se cuece y cuaja dentro de un molde de paredes altas al baño María.','images/mage.png',4),
+(24,'Bollitos de Queso','', 'Aquí va la descripciónn','images/BollitosDeQueso.jpg',4);
+
 
 CREATE TABLE `Sucursal` (
 	`id` int(11) NOT NULL AUTO_INCREMENT, 

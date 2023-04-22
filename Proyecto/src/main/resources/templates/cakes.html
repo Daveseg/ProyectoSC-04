@@ -36,7 +36,8 @@
                 <div class="tbody">
                     <th:block th:each="user : ${cakes}">
                         <div class="tr">
-                            <div class="divImagenProducto"><img th:src="${user.getImage_url}" alt="Imagen" class="imageProducto">
+                            <div class="divImagenProducto">
+                                <img th:src="${user.getImage_url}" alt="Imagen" class="imageProducto">
                                 </div>
                             <div>
                             <h4>Sabor</h4>
@@ -44,8 +45,8 @@
                             <h4>Precio</h4>
                             <p th:text="${user.getPrecio}"></p>
                             <h4>Descripción</h4>
-                            <p th:text="${user.getDescripcion}"></p>
-                            </div>
+                            <p th:utext="${user.getDescripcion().replaceAll('\r?\n', '<br/>')}"></p>
+                            </div> 
                         </div>
                     </th:block>
                 </div>
