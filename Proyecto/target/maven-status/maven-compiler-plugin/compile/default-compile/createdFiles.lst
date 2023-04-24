@@ -1,5 +1,3 @@
-Tarea1HTML\demo\controller\DonutController.class
-Tarea1HTML\demo\entity\Producto.class
 Tarea1HTML\demo\WebConfig.class
 Tarea1HTML\demo\service\IProductoService.class
 Tarea1HTML\demo\Tarea1HtmlApplication.class
@@ -7,4 +5,6 @@ Tarea1HTML\demo\repository\ProductoRepository.class
 Tarea1HTML\demo\controller\CookieController.class
 Tarea1HTML\demo\controller\CakeController.class
 Tarea1HTML\demo\service\ProductoService.class
+Tarea1HTML\demo\controller\DonutController.class
+Tarea1HTML\demo\entity\Producto.class
 Tarea1HTML\demo\controller\SnackController.class
