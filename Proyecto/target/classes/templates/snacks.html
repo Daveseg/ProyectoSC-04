@@ -5,9 +5,27 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/cakes.css"/>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>    
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" 
+        integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" 
+        crossorigin="anonymous"></script>    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js "></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
     </head>
     <body>
+        <style>
+            .boton{
+                outline: 0;
+                background: #32d9d6;
+                width: 65%;
+                border: 0;
+                padding: 15px;
+                color: #FFFFFF;
+                font-size: 20px;
+                border-radius:15px;
+                margin-left: 5%;
+                cursor: pointer;
+            }
+        </style>
         <div class="container">
             <div class="content">
 
@@ -25,7 +43,7 @@
             </div>
             <hr class="tophr">
 
-            <div class="table"> 
+            <div id="maintable" class="table"> 
                 <div class="thead">
                     <div class="tr">
 
@@ -54,6 +72,9 @@
 
 
         </div>
+        <button id="pdfout" class="boton" onclick="print()">
+            Descarga nuestro menu
+        </button>
         <footer>
             <div class="footerL">
             </div>
@@ -65,5 +86,23 @@
             </div>
 
         </footer> 
+        <script>
+            window.jsPDF = window.jspdf.jsPDF;
+            var docPDF = new jsPDF();
+            function print() {
+                var elementHTML = document.querySelector("#maintable");
+                docPDF.html(elementHTML, {
+                    callback: function (docPDF) {
+                        docPDF.save('Snacks Menu.pdf');
+                    },
+                    
+                    format: "a3",
+                    width: 130,
+                    margin: 10,
+                    windowWidth: 650,
+                    scale: 3
+                });
+            }
+        </script>
     </body>
 </html>
