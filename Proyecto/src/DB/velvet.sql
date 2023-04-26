@@ -48,28 +48,28 @@ CREATE TABLE `Producto` (
 (3,'Naranja','₡4,000', 'El tradicional, pero no te dejes engañar,\n igual de delicioso','images/Queque Naranja.jpg',1),
 (4,'Chocolate','₡5,000', 'Un delicioso queque preparado a base de chocolate oscuro\n relleno de Dulce de leche','images/Queque Chocolate.jpg',1),
 (5,'Crema y Frambuesa','₡5,000', 'Deliciosa combinación de crema y\n frambuesa en nuestro queque tradicional','images/quequeCremaFrambuesa.jpg',1),
-(6,'Snickers','₡', 'Delicioso queque preparado con el favorito\n Snickers','images/Snickers Cake.jpg',1),
+(6,'Snickers','₡5,000', 'Delicioso queque preparado con el favorito\n Snickers','images/Snickers Cake.jpg',1),
 
 (7,'Dona Glaseada', '₡2,000', 'Una deliciosa dona Glaseada\n de sabores a su preferencia','images/donaGlaseada.jpg',2),
 (8,'Dona de chocolate','₡2,000', 'Una deliciosa dona de chocolate Tradicional','images/DonaChocolate.jpg',2),
-(9,'Dona de crema pastelera','₡2,000', 'Deliciosa dona rellena de crema pastelera','images/image.png',2),
+(9,'Dona de crema pastelera','₡2,000', 'Deliciosa dona rellena de crema pastelera','images/cremapastelera.jpg',2),
 (10,'Cronut','₡2,000', 'Una deliciosa dona hecha con masa de croissant','images/Cronut.jpg',2),
 (11,'Dona tradicional azucarada','₡2,000', 'Clasica dona azucarada','images/DonaAzucarada.jpg',2),
-(12,'Dona de Arandanos','₡', 'Deliciosa Dona rellena de mermelada de Arandanos','images/DonaArandano.jpg',2),
+(12,'Dona de Arandanos','₡2,000', 'Deliciosa Dona rellena de mermelada de Arandanos','images/DonaArandano.jpg',2),
 
-(13,'Funfetti cookie', '₡1,000', 'Deliciosa galleta con chispas de colores','images/Funfetti Cookie',3),
+(13,'Funfetti cookie', '₡1,000', 'Deliciosa galleta con chispas de colores','images/Funfetti Cookie.jpg',3),
 (14,'Red Velvet','₡1,000', 'Una deliciosa galleta con chispas de chocolate y festivo color rojo','images/Red Velvet Cookie.jpg',3),
 (15,'Macarons','₡1,500', 'Dos galletas unidas por una tierna crema o ganache entre ambas','images/Macarons cookies.jpg',3),
 (16,'Chocolate chip cookie','₡1,000', 'Clasica galleta crujiente con trocitos de chocolate','images/ChocolateChipCookies.jpg',3),
-(17,'Alfajores Argentinos','₡1,500', 'Deliciosa galletas rellenas de dulce de leche y azúcar glaseado','images/Alfajores.png',3),
-(18,'Galleta de Leche Condensada', '₡', 'Aquí va la descripciónn','images/GalletaLecheCondensada.jpg',3),
+(17,'Alfajores Argentinos','₡1,500', 'Deliciosa galletas rellenas de dulce de leche y azúcar glaseado','images/Alfajores.jpg',3),
+(18,'Galleta de Leche Condensada', '₡1,500', 'Aquí va la descripciónn','images/GalletaLecheCondensada.jpg',3),
 
 (19,'Croissants', '₡5,000', 'Bocadilla de masa de hojaldre\n fermentada en forma de luna creciente','images/croissants.jpg',4),
 (20,'Cannoncini','₡6,000', 'Bocadillo Crujiente en la superficie, suave por dentro y relleno de una sabrosa crema de vainilla','images/Italian Cream Stuffed Cannoncini (Cream Horns).jpg',4),
 (21,'Trenza salada','₡4,000', 'Pan en forma de trenza con queso salado que lo hace un delicioso bocadillo ','images/TrenzaSalada.png',4),
 (22,'Pupusas dulces','₡5,000', 'Un delicioso pan dulce suave, perfecto para un cafe','images/Pupusa.jpg',4),
-(23,'Budín clásico','₡5,000', ' Bocadillo, dulce o salado, que se cuece y cuaja dentro de un molde de paredes altas al baño María.','images/mage.png',4),
-(24,'Bollitos de Queso','', 'Aquí va la descripciónn','images/BollitosDeQueso.jpg',4);
+(23,'Budín clásico','₡5,000', ' Bocadillo, dulce o salado, que se cuece y cuaja dentro de un molde de paredes altas al baño María.','images/Budin.jpg',4),
+(24,'Bollitos de Queso','₡5,000', 'Aquí va la descripciónn','images/BollitosDeQueso.jpg',4);
 
 
 CREATE TABLE `Sucursal` (
@@ -82,35 +82,34 @@ CREATE TABLE `Sucursal` (
 
 CREATE TABLE `Carrito` (
 	`id` int(11) NOT NULL AUTO_INCREMENT, 
-	`UsuarioId` int(11) NOT NULL, 
-    `ProductoId` int(11) NOT NULL,
-    `Cantidad` int(11) NOT NULL,
-    `SucursalId` int(11) NOT NULL,
+	`usuario_id` int(11) NOT NULL, 
+    `producto_id` int(11) NOT NULL,
+    `cantidad` int(11) NOT NULL,
+    `sucursal_id` int(11) NOT NULL,
     PRIMARY KEY (`id`),
-	CONSTRAINT `fk_carrito_usuario` FOREIGN KEY (`UsuarioId`) REFERENCES `Usuario` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
-    CONSTRAINT `fk_carrito_producto` FOREIGN KEY (`ProductoId`) REFERENCES `Producto` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
-    CONSTRAINT `fk_carrito_sucursal` FOREIGN KEY (`SucursalId`) REFERENCES `Sucursal` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION
+	CONSTRAINT `fk_carrito_usuario` FOREIGN KEY (`usuario_id`) REFERENCES `Usuario` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+    CONSTRAINT `fk_carrito_producto` FOREIGN KEY (`producto_id`) REFERENCES `Producto` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+    CONSTRAINT `fk_carrito_sucursal` FOREIGN KEY (`sucursal_id`) REFERENCES `Sucursal` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION
     );
     
 CREATE TABLE `Factura` (
 	`Recibo` int(11) NOT NULL AUTO_INCREMENT, 
 	`Fecha` datetime NOT NULL, 
-    `UsuarioId` int(11) NOT NULL,
-    `SucursalId` int(11) NOT NULL,
-    `Total` int(11) NOT NULL,
+    `usuario_id` int(11) NOT NULL,
+    `sucursal_id` int(11) NOT NULL,
     PRIMARY KEY (`Recibo`),
-    CONSTRAINT `fk_factura_usuario` FOREIGN KEY (`UsuarioId`) REFERENCES `Usuario` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
-    CONSTRAINT `fk_factura_sucursal` FOREIGN KEY (`SucursalId`) REFERENCES `Sucursal` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION
+    CONSTRAINT `fk_factura_usuario` FOREIGN KEY (`usuario_id`) REFERENCES `Usuario` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+    CONSTRAINT `fk_factura_sucursal` FOREIGN KEY (`sucursal_id`) REFERENCES `Sucursal` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION
 );
 
 CREATE TABLE `Detalle_Factura` (
 	`id` int(11) NOT NULL AUTO_INCREMENT, 
 	`Recibo` int(11) NOT NULL,
-    `ProductoId` int(11) NOT NULL,
+    `producto_id` int(11) NOT NULL,
     `Cantidad` int(11) NOT NULL,
     PRIMARY KEY (`id`),
     CONSTRAINT `fk_Dfactura_Recibo` FOREIGN KEY (`Recibo`) REFERENCES `Factura` (`Recibo`) ON DELETE NO ACTION ON UPDATE NO ACTION,
-    CONSTRAINT `fk_Dfactura_Producto` FOREIGN KEY (`ProductoId`) REFERENCES `Producto` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION
+    CONSTRAINT `fk_Dfactura_Producto` FOREIGN KEY (`producto_id`) REFERENCES `Producto` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION
 );
 
 CREATE TABLE `Inventario` (
