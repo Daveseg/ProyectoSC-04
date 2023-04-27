@@ -21,7 +21,7 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 21px;
 }
 
 .topnav a.active {
@@ -67,14 +67,7 @@ html {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-.content{
-  padding: 0 16px;
-    padding-left: 5%;
-    padding-right: 5%;
-}
-
-.container {
-    
+.mycontainer {
     padding: 0 16px;
     padding-left: 5%;
     padding-right: 5%;
@@ -101,9 +94,10 @@ html {
 
 }
 
-.logo{
+.mylogo{
+
     width: 350px;
-    height: 250px;
+    height: 350px;
     cursor: pointer;
     margin-left: -50px;
     margin-top: 25px;
@@ -139,14 +133,12 @@ footer a:hover {
 }
 
 footer {
-    width: 105.2%;
     text-align: center;
     display: block;
     padding: 3px;
     background-color:   #F0F0F0;
     color: black;
     border-top: solid #ffffff 2px;
-    margin-left:-100px;
 
 
 }
@@ -173,3 +165,14 @@ footer {
     margin: 1%;
 }
 
+footer hr{
+
+    width: 70%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-top: dotted white 2px;
+    box-sizing: border-box;
+    margin-left: 15%;
+
+}
