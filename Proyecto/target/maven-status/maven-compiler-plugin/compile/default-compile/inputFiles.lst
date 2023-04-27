@@ -1,20 +1,20 @@
-C:\Users\Luis Daniel\Documents\GitHub\ProyectoSC-04\Proyecto\src\main\java\Tarea1HTML\demo\WebConfig.java
-C:\Users\Luis Daniel\Documents\GitHub\ProyectoSC-04\Proyecto\src\main\java\Tarea1HTML\demo\repository\CarritoRepository.java
-C:\Users\Luis Daniel\Documents\GitHub\ProyectoSC-04\Proyecto\src\main\java\Tarea1HTML\demo\service\DetalleFacturaService.java
-C:\Users\Luis Daniel\Documents\GitHub\ProyectoSC-04\Proyecto\src\main\java\Tarea1HTML\demo\Tarea1HtmlApplication.java
-C:\Users\Luis Daniel\Documents\GitHub\ProyectoSC-04\Proyecto\src\main\java\Tarea1HTML\demo\entity\Carrito.java
-C:\Users\Luis Daniel\Documents\GitHub\ProyectoSC-04\Proyecto\src\main\java\Tarea1HTML\demo\service\IDetalleFacturaService.java
-C:\Users\Luis Daniel\Documents\GitHub\ProyectoSC-04\Proyecto\src\main\java\Tarea1HTML\demo\service\CarritoService.java
-C:\Users\Luis Daniel\Documents\GitHub\ProyectoSC-04\Proyecto\src\main\java\Tarea1HTML\demo\service\FacturaService.java
-C:\Users\Luis Daniel\Documents\GitHub\ProyectoSC-04\Proyecto\src\main\java\Tarea1HTML\demo\service\ProductoService.java
-C:\Users\Luis Daniel\Documents\GitHub\ProyectoSC-04\Proyecto\src\main\java\Tarea1HTML\demo\repository\DetalleFacturaRepository.java
-C:\Users\Luis Daniel\Documents\GitHub\ProyectoSC-04\Proyecto\src\main\java\Tarea1HTML\demo\entity\Producto.java
-C:\Users\Luis Daniel\Documents\GitHub\ProyectoSC-04\Proyecto\src\main\java\Tarea1HTML\demo\entity\CarritoDetalle.java
-C:\Users\Luis Daniel\Documents\GitHub\ProyectoSC-04\Proyecto\src\main\java\Tarea1HTML\demo\repository\ProductoRepository.java
-C:\Users\Luis Daniel\Documents\GitHub\ProyectoSC-04\Proyecto\src\main\java\Tarea1HTML\demo\service\ICarritoService.java
-C:\Users\Luis Daniel\Documents\GitHub\ProyectoSC-04\Proyecto\src\main\java\Tarea1HTML\demo\service\IProductoService.java
-C:\Users\Luis Daniel\Documents\GitHub\ProyectoSC-04\Proyecto\src\main\java\Tarea1HTML\demo\entity\Factura.java
-C:\Users\Luis Daniel\Documents\GitHub\ProyectoSC-04\Proyecto\src\main\java\Tarea1HTML\demo\service\IFacturaService.java
-C:\Users\Luis Daniel\Documents\GitHub\ProyectoSC-04\Proyecto\src\main\java\Tarea1HTML\demo\repository\FacturaRepository.java
-C:\Users\Luis Daniel\Documents\GitHub\ProyectoSC-04\Proyecto\src\main\java\Tarea1HTML\demo\entity\DetalleFactura.java
-C:\Users\Luis Daniel\Documents\GitHub\ProyectoSC-04\Proyecto\src\main\java\Tarea1HTML\demo\controller\ProductoController.java
+C:\Users\jcga5\OneDrive\Documentos\GitHub\ProyectoSC-04\Proyecto\src\main\java\Tarea1HTML\demo\entity\DetalleFactura.java
+C:\Users\jcga5\OneDrive\Documentos\GitHub\ProyectoSC-04\Proyecto\src\main\java\Tarea1HTML\demo\entity\Factura.java
+C:\Users\jcga5\OneDrive\Documentos\GitHub\ProyectoSC-04\Proyecto\src\main\java\Tarea1HTML\demo\service\ICarritoService.java
+C:\Users\jcga5\OneDrive\Documentos\GitHub\ProyectoSC-04\Proyecto\src\main\java\Tarea1HTML\demo\WebConfig.java
+C:\Users\jcga5\OneDrive\Documentos\GitHub\ProyectoSC-04\Proyecto\src\main\java\Tarea1HTML\demo\repository\ProductoRepository.java
+C:\Users\jcga5\OneDrive\Documentos\GitHub\ProyectoSC-04\Proyecto\src\main\java\Tarea1HTML\demo\controller\ProductoController.java
+C:\Users\jcga5\OneDrive\Documentos\GitHub\ProyectoSC-04\Proyecto\src\main\java\Tarea1HTML\demo\service\FacturaService.java
+C:\Users\jcga5\OneDrive\Documentos\GitHub\ProyectoSC-04\Proyecto\src\main\java\Tarea1HTML\demo\service\IProductoService.java
+C:\Users\jcga5\OneDrive\Documentos\GitHub\ProyectoSC-04\Proyecto\src\main\java\Tarea1HTML\demo\service\CarritoService.java
+C:\Users\jcga5\OneDrive\Documentos\GitHub\ProyectoSC-04\Proyecto\src\main\java\Tarea1HTML\demo\entity\Carrito.java
+C:\Users\jcga5\OneDrive\Documentos\GitHub\ProyectoSC-04\Proyecto\src\main\java\Tarea1HTML\demo\entity\Producto.java
+C:\Users\jcga5\OneDrive\Documentos\GitHub\ProyectoSC-04\Proyecto\src\main\java\Tarea1HTML\demo\repository\CarritoRepository.java
+C:\Users\jcga5\OneDrive\Documentos\GitHub\ProyectoSC-04\Proyecto\src\main\java\Tarea1HTML\demo\service\ProductoService.java
+C:\Users\jcga5\OneDrive\Documentos\GitHub\ProyectoSC-04\Proyecto\src\main\java\Tarea1HTML\demo\entity\CarritoDetalle.java
+C:\Users\jcga5\OneDrive\Documentos\GitHub\ProyectoSC-04\Proyecto\src\main\java\Tarea1HTML\demo\service\IDetalleFacturaService.java
+C:\Users\jcga5\OneDrive\Documentos\GitHub\ProyectoSC-04\Proyecto\src\main\java\Tarea1HTML\demo\Tarea1HtmlApplication.java
+C:\Users\jcga5\OneDrive\Documentos\GitHub\ProyectoSC-04\Proyecto\src\main\java\Tarea1HTML\demo\service\DetalleFacturaService.java
+C:\Users\jcga5\OneDrive\Documentos\GitHub\ProyectoSC-04\Proyecto\src\main\java\Tarea1HTML\demo\repository\FacturaRepository.java
+C:\Users\jcga5\OneDrive\Documentos\GitHub\ProyectoSC-04\Proyecto\src\main\java\Tarea1HTML\demo\service\IFacturaService.java
+C:\Users\jcga5\OneDrive\Documentos\GitHub\ProyectoSC-04\Proyecto\src\main\java\Tarea1HTML\demo\repository\DetalleFacturaRepository.java

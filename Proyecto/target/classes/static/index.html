@@ -1,7 +1,9 @@
 <html>
     <head>
         <title>Home</title>
-        <link rel="stylesheet" href="css/index.css"/>
+        <link rel="stylesheet" href="css/index.css">
+    <script src="idioma.js"></script>
+      
     </head>
 
     <body>
@@ -9,26 +11,26 @@
             <div class="topnav">
 
                 <a href="index.html"><img src="images/Velvet Logo.png" alt="Aqui va el logo" class="mylogo"/></a> 
-                <a href="about_us.html">About Us</a>
-                <a href="menu.html">Menu</a>
-                <a href="locations.html">Locations</a>
-                <a href="/mostrarcarrito">Cart</a>
+                <a href="about_us.html" id="aboutUs">About Us</a>
+                <a href="menu.html" id="Menu">Menu</a>
+                <a href="locations.html" id="Locations">Locations</a>
+                <a href="/mostrarcarrito" id="Cart">Cart</a>
 
                 <div class="topnav-right">
-                    <a class="active" href="order.html">ORDER NOW</a>
-                    <a href="login.html">Login</a>
+                    <a class="active" href="order.html" id="OrderNow">ORDER NOW</a>
+                    <a href="login.html" >Login</a>
                 </div>
             </div>
             <hr class="tophr">
             <div class="content">
-                <h1 class="h1"><b>Life is short,</b> <br> <b>eat dessert first</b></h1>
+                <h1 class="h1"><b id="h1">Life is short,</b> <br> <b id="h12">eat dessert first</b></h1>
 
                 <div class="container">
                     <div class="row">
                         <div class="column-66">
-                            <h1 class="xlarge-font"><b>Cookies</b></h1>
-                            <h1 class="large-font" style="color:MediumSeaGreen;"><b>We all love them, right?</b></h1>
-                            <p><span style="font-size:36px">Just eat one.</span> You will thank us later.</p>
+                            <h1 class="xlarge-font"><b id="cookies">Cookies</b></h1>
+                            <h1 class="large-font" style="color:MediumSeaGreen;"><b id="loveem">We all love them, right?</b></h1>
+                            <p><span style="font-size:36px" id="eatone">Just eat one.</span> <span id="thankuslater">You will thank us later.</span></p>
                             <a href="/cookie"><button class="button" style="background-color:MediumSeaGreen">Order Now</button></a>
                         </div>
                         <div class="column-33">
@@ -103,6 +105,8 @@
 
         <footer>
             <div class="footerL">
+                <button onclick="traducirEsp()">English</button>
+                <button onclick="traducirIng()">Spanish</button>
             </div>
 
             <div class="footerR">
